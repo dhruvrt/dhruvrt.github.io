@@ -2,7 +2,7 @@
 
 # Import the theme
 theme: jekyll-theme-chirpy
-
+theme_mode: dark
 name : &name "Dhruv Tiwari" # &name is a YAML anchor which can be *referenced later
 teaser : /assets/images/dhruv_profilepic.png # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 baseurl: ''
@@ -61,38 +61,6 @@ avatar: /assets/images/dhruv_profilepic.png
 # boolean type, the global switch for ToC in posts.
 toc: true
 
-comments:
-  active: giscus # The global switch for posts comments, e.g., 'disqus'.  Keep it empty means disable
-  # The active options are as follows:
-  disqus:
-    shortname:    # fill with the Disqus shortname. › https://help.disqus.com/en/articles/1717111-what-s-a-shortname
-  # utterances settings › https://utteranc.es/
-  utterances:
-    repo:         # <gh-username>/<repo>
-    issue_term:   # < url | pathname | title | ...>
-  # Giscus options › https://giscus.app
-  giscus:
-    repo: dhruvrt/dhruvrt.github.io # <gh-username>/<repo>
-    repo_id: 
-    category: General
-    category_id: 
-    mapping:           # optional, default to 'pathname'
-    input_position:    # optional, default to 'bottom'
-    lang:              # optional, default to the value of `site.lang`
-    reactions_enabled: # optional, default to the value of `1`
-
-# Self-hosted static assets, optional › https://github.com/cotes2020/chirpy-static-assets
-assets:
-  self_host:
-    enabled:      # boolean, keep empty means false
-    # specify the Jekyll environment, empty means both
-    # only works if `assets.self_host.enabled` is 'true'
-    env:          # [development|production]
-
-pwa:
-  enabled: true   # the option for PWA feature
-
-paginate: 10
 
 # ------------ The following options are not recommended to be modified ------------------
 
