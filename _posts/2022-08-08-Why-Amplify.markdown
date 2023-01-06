@@ -1,8 +1,10 @@
 ---
-layout: post
 title:  "Why Amplify?"
 date:   2022-08-08 14:38:21 -0500
-categories: blog 
+author: Dhruv Tiwari
+categories: [Blogging, Tutorial]
+tags: [writing]
+render_with_liquid: false
 ---
 
 ## This is a blog on why we chose AWS Amplify over other options, its advantages and disadvantages, and how to set up a simple Amplify Project.

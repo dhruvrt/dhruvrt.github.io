@@ -1,8 +1,10 @@
 ---
-layout: post
-title: "Amplify push Error - Resource is not in StackUpdateComplete"
+title:  "Amplify push Error - Resource is not in StackUpdateComplete"
 date: 2022-12-20 14:38:21 -0500
-categories: blog 
+author: Dhruv Tiwari
+categories: [Blogging, Tutorial]
+tags: [writing]
+render_with_liquid: false
 ---
 
 ## When pushing to amplify, you might come across an error - <br>

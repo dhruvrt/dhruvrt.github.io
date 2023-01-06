@@ -1,8 +1,10 @@
 ---
-layout: post
 title:  "Creating an Amplify Project"
 date:   2022-08-08 14:38:21 -0500
-categories: blog 
+author: Dhruv Tiwari
+categories: [Blogging, Tutorial]
+tags: [writing]
+render_with_liquid: false
 ---
 
 ## Setting up a new Amplify Project ----TODO---- <br>
