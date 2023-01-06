@@ -2,7 +2,7 @@
 title:  "Why Amplify?"
 date:   2022-08-08 14:38:21 -0500
 author: Dhruv Tiwari
-categories: [Blogging, Tutorial]
+categories: [Amplify]
 tags: [writing]
 render_with_liquid: false
 ---
