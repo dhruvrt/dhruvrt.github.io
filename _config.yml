@@ -8,9 +8,8 @@ teaser : /assets/images/dhruv_profilepic.png # path of fallback teaser image, e.
 baseurl: ''
 lang: en
 timezone: America/New_York
-title: Dhruv's Blog
-tagline: AWS • FullStack • Blogs
-  Blogging about AWS, Full Stack Development, tips and tricks ...
+title: Dhruv's Website
+tagline: Audion • AWS • Full Stack  
 url: 'https://dhruvrt.github.io'
 github:
   username: dhruvrt
@@ -23,7 +22,7 @@ social:
   links:
     # The first element serves as the copyright owner's link
     - https://twitter.com/_dhruv7 # change to your twitter homepage
-    - https://github.com/ # change to your github homepage
+    - https://github.com/daydh7 # change to your github homepage
     - https://www.linkedin.com/in/dhruvtiwari7/
 
 # Site Author
