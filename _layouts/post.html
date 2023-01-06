@@ -14,7 +14,7 @@ layout: default
       <div class="post-meta text-muted d-flex flex-column">
         <!-- Published date and author -->
         <div>
-          {% include timeago.html date=page.date tooltip=true %}
+          <!-- {% include timeago.html date=page.date tooltip=true %} -->
           by
           <span class="author">
             {{ page.author | default: site.author }}
@@ -26,12 +26,12 @@ layout: default
           {% if page.last_modified_at %}
           <span>
             Updated
-            {% include timeago.html date=page.last_modified_at class="lastmod" tooltip=true %}
+            <!-- {% include timeago.html date=page.last_modified_at class="lastmod" tooltip=true %} -->
           </span>
           {% endif %}
 
           <!-- read time -->
-          {% include read-time.html content=content %}
+          <!-- {% include read-time.html content=content %} -->
 
           <!-- page views -->
           {% if site.google_analytics.pv.enabled %}
@@ -118,10 +118,6 @@ layout: default
     {% include related-posts.html %}
 
     {% include post-nav.html %}
-
-    {% if site.disqus.comments and page.comments %}
-      {% include disqus.html %}
-    {% endif %}
 
     </div> <!-- #post-extend-wrapper -->
 
