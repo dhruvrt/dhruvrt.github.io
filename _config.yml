@@ -3,12 +3,14 @@
 # Import the theme
 theme: jekyll-theme-chirpy
 theme_mode: dark
+plugins:
+  - jekyll-redirect-from
 name : &name "Dhruv Tiwari" # &name is a YAML anchor which can be *referenced later
 teaser : /assets/images/dhruv_profilepic.png # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 baseurl: ''
 lang: en
 timezone: America/New_York
-title: Dhruv's Website
+title: DRamaT-ic
 tagline: Audion • AWS • Full Stack  
 url: 'https://dhruvrt.github.io'
 github:
