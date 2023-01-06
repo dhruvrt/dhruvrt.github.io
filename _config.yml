@@ -3,91 +3,66 @@
 # Import the theme
 theme: jekyll-theme-chirpy
 
-# Change the following value to '/PROJECT_NAME' ONLY IF your site type is GitHub Pages Project sites
-# and doesn't have a custom domain.
+name : &name "Dhruv Tiwari" # &name is a YAML anchor which can be *referenced later
+teaser : /assets/images/dhruv_profilepic.png # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 baseurl: ''
-
-# The language of the webpage › http://www.lingoes.net/en/translator/langcode.htm
-# If it has the same name as one of the files in folder `_data/locales`, the layout language will also be changed,
-# otherwise, the layout language will use the default value of 'en'.
 lang: en
-
-
-# Change to your timezone › http://www.timezoneconverter.com/cgi-bin/findzone/findzone
-timezone:
-
-# jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
-# ↓ --------------------------
-
-title: Chirpy                          # the main title
-
-tagline: A text-focused Jekyll theme   # it will display as the sub-title
-
-description: >-                        # used by seo meta and the atom feed
-  A minimal, responsive, and powerful Jekyll theme for presenting professional writing.
-
-# fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
-url: ''
-
+timezone: America/New_York
+title: Dhruv's Blog
+tagline: AWS • FullStack • Blogs
+  Blogging about AWS, Full Stack Development, tips and tricks ...
+url: 'https://dhruvrt.github.io'
 github:
-  username: github_username             # change to your github username
-
+  username: dhruvrt
 twitter:
-  username: twitter_username            # change to your twitter username
+  username: dhruv7
 
 social:
-  # Change to your full name.
-  # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: your_full_name
-  email: example@domain.com             # change to your email address
+  name: *name
+  email: dhruv@piddlecast.com
   links:
     # The first element serves as the copyright owner's link
-    - https://twitter.com/username      # change to your twitter homepage
-    - https://github.com/username       # change to your github homepage
-    # Uncomment below to add more social links
-    # - https://www.facebook.com/username
-    # - https://www.linkedin.com/in/username
+    - https://twitter.com/_dhruv7 # change to your twitter homepage
+    - https://github.com/ # change to your github homepage
+    - https://www.linkedin.com/in/dhruvtiwari7/
 
-google_site_verification:               # fill in to your verification string
+# Site Author
+author:
+  name             : *name # *name is a YAML reference pointing to the &anchor earlier
+  avatar           : "/assets/images/dhruv_profilepic.png"
+  bio              : "Just another *boring*, *tattooed*, *time traveling*, *designer*."
+  location         : "Buffalo, NY"
+  links:
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/_dhruv7"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/daydh7"
+    - label: "LinkedIn"
+      icon : "fab fa-linkedin-in"
+      url: "https://www.linkedin.com/in/dhruvtiwari7/"
 
-# ↑ --------------------------
-# The end of `jekyll-seo-tag` settings
-
-google_analytics:
-  id:                 # fill in your Google Analytics ID
-  # Google Analytics pageviews report settings
-  pv:
-    proxy_endpoint:   # fill in the Google Analytics superProxy endpoint of Google App Engine
-    cache_path:       # the local PV cache data, friendly to visitors from GFW region
-
-# Prefer color scheme setting.
-#
-# Note: Keep empty will follow the system prefer color by default,
-# and there will be a toggle to switch the theme between dark and light
-# on the bottom left of the sidebar.
-#
-# Available options:
-#
-#     light  - Use the light color scheme
-#     dark   - Use the dark color scheme
-#
-theme_mode:   # [light|dark]
-
-# The CDN endpoint for images.
-# Notice that once it is assigned, the CDN url
-# will be added to all image (site avatar & posts' images) paths starting with '/'
-#
-# e.g. 'https://cdn.com'
-img_cdn:
+# Site Footer
+footer:
+  links:
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/_dhruv7"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/daydh7"
+    - label: "LinkedIn"
+      icon : "fab fa-linkedin-in"
+      url: "https://www.linkedin.com/in/dhruvtiwari7/"
 
 # the avatar on sidebar, support local or CORS resources
-avatar:
-
+avatar: /assets/images/dhruv_profilepic.png
 # boolean type, the global switch for ToC in posts.
 toc: true
 
 comments:
-  active:         # The global switch for posts comments, e.g., 'disqus'.  Keep it empty means disable
+  active: giscus # The global switch for posts comments, e.g., 'disqus'.  Keep it empty means disable
   # The active options are as follows:
   disqus:
     shortname:    # fill with the Disqus shortname. › https://help.disqus.com/en/articles/1717111-what-s-a-shortname
@@ -97,10 +72,10 @@ comments:
     issue_term:   # < url | pathname | title | ...>
   # Giscus options › https://giscus.app
   giscus:
-    repo:              # <gh-username>/<repo>
-    repo_id:
-    category:
-    category_id:
+    repo: dhruvrt/dhruvrt.github.io # <gh-username>/<repo>
+    repo_id: 
+    category: General
+    category_id: 
     mapping:           # optional, default to 'pathname'
     input_position:    # optional, default to 'bottom'
     lang:              # optional, default to the value of `site.lang`
