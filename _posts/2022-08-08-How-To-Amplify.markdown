@@ -1,8 +1,9 @@
 ---
 title:  "Creating an Amplify Project"
 date:   2022-08-08 14:38:21 -0500
+layout: 'post'
 categories: [Amplify, Tips and Tricks]
-tags: [writing]
+tags: [aws, tutorial]
 ---
 
 ## Setting up a new Amplify Project ----TODO---- <br>

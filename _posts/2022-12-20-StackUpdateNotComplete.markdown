@@ -1,8 +1,9 @@
 ---
 title:  "Amplify push Error - Resource is not in StackUpdateComplete"
 date: 2022-12-20 14:38:21 -0500
+layout: 'post'
 categories: [Amplify, Tips and Tricks]
-tags: [writing]
+tags: [bug fixes, aws]
 ---
 
 ## When pushing to amplify, you might come across an error - <br>
