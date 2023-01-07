@@ -2,14 +2,11 @@
 # the default layout is 'page'
 layout: 'page'
 icon: fas fa-info-circle
-order: 1
+# order: 1
 # permalink: /
 # redirect_from:
 #   - /about
 ---
-
-<!-- > Add Markdown syntax content to file `_tabs/about.md`{: .filepath } and it will show up on this page.
-{: .prompt-tip } -->
 
 Hey! I am pursuing my Bachelor's in Computer Science from University of Michigan, Ann Arbor.<br/> Currently, I've taken a break from college to launch a startup, Audion Technologies. We are working on Glimpz, a music discovery app that allows you to find music by matching your taste and mood. I will share more details about it as we get closer to the launch in Q1, 2023. 
 
