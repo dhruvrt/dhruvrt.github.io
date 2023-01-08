@@ -35,7 +35,7 @@ And then execute:
 ```console
 $ bash tools/init.sh
 ```
-The above command will clean up unneeded files from your repository, and automatically create a new commit.
+The above command will clean uffffp unneeded files from your repository, and automatically create a new commit.
 
 
 ### Installing Dependencies

@@ -4,6 +4,7 @@ date:   2022-08-08 14:38:21 -0500
 categories: [Amplify, About]
 layout: 'post'
 tags: [aws]
+pin: true
 ---
 
 ## This is a blog on why we chose AWS Amplify over other options, its advantages and disadvantages, and how to set up a simple Amplify Project.
