@@ -4,7 +4,7 @@
 theme: jekyll-theme-chirpy
 theme_mode: dark
 name : &name "Dhruv Tiwari" # &name is a YAML anchor which can be *referenced later
-teaser : /assets/images/dhruv_profilepic.png # path of fallback teaser image, e.g. "/assets/images/500x300.png"
+teaser : /assets/images/dhruv_profilepic_2.png # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 baseurl: ''
 lang: en
 timezone: America/New_York
@@ -18,7 +18,7 @@ twitter:
 
 social:
   name: *name
-  email: dhruv@piddlecast.com
+  email: dhruv@audiontec.com
   links:
     # The first element serves as the copyright owner's link
     - https://twitter.com/_dhruv7 # change to your twitter homepage
@@ -28,9 +28,9 @@ social:
 # Site Author
 author:
   name             : *name # *name is a YAML reference pointing to the &anchor earlier
-  avatar           : "/assets/images/dhruv_profilepic.png"
-  bio              : "Just another *boring*, *tattooed*, *time traveling*, *designer*."
-  location         : "Buffalo, NY"
+  avatar           : "/assets/images/dhruv_profilepic_2.png"
+  bio              : ""
+  location         : "Atlanta, GA"
   links:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
@@ -56,7 +56,7 @@ footer:
       url: "https://www.linkedin.com/in/dhruvtiwari7/"
 
 # the avatar on sidebar, support local or CORS resources
-avatar: /assets/images/dhruv_profilepic.png
+avatar: /assets/images/dhruv_profilepic_2.png
 # boolean type, the global switch for ToC in posts.
 toc: true
 
