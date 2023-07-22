@@ -13,15 +13,12 @@ tagline: Audion • AWS • Full Stack
 url: 'https://dhruvrt.github.io'
 github:
   username: dhruvrt
-twitter:
-  username: dhruv7
 
 social:
   name: *name
   email: dhruv@audiontec.com
   links:
     # The first element serves as the copyright owner's link
-    - https://twitter.com/_dhruv7 # change to your twitter homepage
     - https://github.com/daydh7 # change to your github homepage
     - https://www.linkedin.com/in/dhruvtiwari7/
 
@@ -32,9 +29,6 @@ author:
   bio              : ""
   location         : "Atlanta, GA"
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/_dhruv7"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/daydh7"
@@ -45,9 +39,6 @@ author:
 # Site Footer
 footer:
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/_dhruv7"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/daydh7"
